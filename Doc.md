@@ -16,3 +16,7 @@
 ### Step 4
     Next, go to config/auth.php and Change the API driver to the session to passport. 
     Put this code ‘driver’ => ‘passport’, in API 
+
+### Step 5
+    Add the API routes to api.php  and create the AuthController.
+    then add the login, register, and getUser methods in it.

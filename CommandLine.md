@@ -10,3 +10,8 @@
     $ php artisan migrate
     $php artisan passport:install
 ```
+
+### Make the AuthController
+```SH
+    php artisan make:controller Api\AuthController
+```
