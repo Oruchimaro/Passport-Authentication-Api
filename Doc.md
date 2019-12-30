@@ -20,3 +20,16 @@
 ### Step 5
     Add the API routes to api.php  and create the AuthController.
     then add the login, register, and getUser methods in it.
+
+
+### Step 6
+    Make Requests with Postman to test and debug.
+    Call login or register apis put $accessToken. 
+    ‘headers’ => [
+    ‘Accept’ => ‘application/json’,
+    ‘Authorization’ => ‘Bearer ‘.$accessToken,
+    ]
+
+    Pass Header in login/register rest API, it is necessary to passport
+    authentication
+    in laravel app.
